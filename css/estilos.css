@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p { text-align: center;
+background-color: #FAA18F;
+color:blue}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+    font-size: 56px;
+}
+
+h4 {
+    background-color: green;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.indice { 
+    text-align: right;
+    font-weight: bold;
+}
