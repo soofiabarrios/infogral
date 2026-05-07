@@ -1,0 +1,90 @@
+/* 1. Reglas generales para todo el sitio */
+body {
+    background-color: #00012E;
+    color: white; 
+    
+    /*Orbitron a todo el cuerpo por defecto */
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+/* 2. Regla específica para los títulos principales */
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase; /* Opcional: para que resalten más como en el logo */
+    color: #FF9900; /* Un naranja tipo fuego del DeLorean quedaría genial */
+}
+
+/* 3. Si querés que otros títulos (h2, h3) también tengan Audiowide, podés sumarlos así: */
+h2 {
+    font-family: "Audiowide", sans-serif;
+}
+
+/* para los párrafos!! */
+#parrafo {
+    text-align: center;
+}
+
+/* Configuración del Header */
+header {
+    display: flex;
+    flex-direction: column; /* Pone el logo arriba y el menú abajo */
+    align-items: center;    /* Centra todo horizontalmente */
+    padding: 20px 0;
+    background-color: #00012E;
+}
+
+/* Tamaño ideal del Logo */
+.logo {
+    width: 400px;           /* Ancho ideal para que destaque */
+    height: auto;           /* Mantiene la proporción para que no se deforme */
+    display: block;
+    
+}
+
+/* Estilo del Menú de Navegación */
+nav {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;         /* Espaciado entre botones */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF9900;         /* Naranja del logo */
+    font-family: "Orbitron", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.poster {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.img2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#pie {
+    font-size: 12px;
+    text-align: center;
+}
